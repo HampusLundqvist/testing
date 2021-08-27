@@ -1,4 +1,4 @@
 plugin: servicenow.servicenow.now
-instance: blaha
+#instance: blaha
 username: bleh
 password: meh
