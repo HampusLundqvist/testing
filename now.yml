@@ -1,0 +1,4 @@
+plugin: servicenow.servicenow.now
+instance: blaha
+username: bleh
+password: meh
