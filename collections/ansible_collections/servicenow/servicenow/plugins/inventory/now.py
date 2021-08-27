@@ -188,7 +188,7 @@ class InventoryModule(BaseInventoryPlugin, Constructable, Cacheable):
         return valid
 
     def invoke(self, verb, path, data):
-       auth = requests.auth.HTTPBasicAuth(self.get_option('username'),
+        auth = requests.auth.HTTPBasicAuth(self.get_option('username'),
                                            self.get_option('password'))
         headers = {
             "Accept": "application/json",
