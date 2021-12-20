@@ -1,0 +1,8 @@
+- hosts: localhost
+  gather_facts: no
+  become: no
+  tasks:
+  - command: ls -l /opt/ansible/dependencies
+    register: output
+  - debug:
+      var: output
